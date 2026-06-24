@@ -6,23 +6,16 @@
   const SCHEMA_VERSION = 1;
   const SAVES_DIR = "saves";
 
-  // Seed used for a brand-new campaign and as the import-default. Mirrors the
-  // project's existing core/state/campaign.json starting point.
-  function seedState() {
+  // A brand-new, empty campaign. The deployed app ships with NO personal
+  // campaign data — open a folder or load a campaign file to populate it.
+  function blankState() {
     return {
       schema_version: SCHEMA_VERSION,
       party_name: "",
       reputation: 0,
       prosperity: 1,
-      scenarios_unlocked: [
-        1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 16, 18, 19, 20, 22, 23, 24, 25, 26,
-        28, 30, 31, 34, 35, 36, 37, 38, 39, 42, 43, 44, 48, 51, 64, 65, 68, 72,
-        76, 81, 82, 83, 84, 90, 93,
-      ],
-      scenarios_completed: [
-        1, 2, 3, 4, 8, 13, 14, 16, 18, 20, 22, 24, 25, 26, 30, 31, 34, 38, 42,
-        43, 48, 64, 68, 84, 93,
-      ],
+      scenarios_unlocked: [1],
+      scenarios_completed: [],
       characters: [],
       classes_unlocked: [],
       global_achievements: [],
@@ -31,13 +24,8 @@
       notes: "",
     };
   }
-
-  function emptyState() {
-    const s = seedState();
-    s.scenarios_unlocked = [1];
-    s.scenarios_completed = [];
-    return s;
-  }
+  const seedState = blankState;
+  const emptyState = blankState;
 
   // Normalize a loaded object so older/partial saves never crash the UI.
   function normalize(raw) {
@@ -218,9 +206,9 @@
       } else {
         // No save yet — offer to seed the first campaign from the known state.
         this.saveName = "campaign.json";
-        this.state = seedState();
+        this.state = blankState();
         await this.writeActiveSave();
-        this.setStatus("Created saves/campaign.json from the current campaign state.");
+        this.setStatus("Created an empty saves/campaign.json — use ‘Load file…’ to import a shared campaign, or start recording.");
       }
     },
 
