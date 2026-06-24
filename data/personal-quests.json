@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "game": "Gloomhaven",
+    "edition": "1st",
+    "scope": "24 base-game personal quests, cards 510-533.",
+    "spoiler_policy": "The quest name + requirement are visible to the player who drew it (spoiler:false). The CLASS reward is a spoiler (spoiler_class:true) — in chat, refer to it only by box_symbol (unlocks_class), never unlocks_class_name, until that class is unlocked.",
+    "fields": {
+      "number": "card number 510-533",
+      "name": "personal quest name",
+      "requirement": "completion condition (paraphrased)",
+      "unlocks_class": "spoiler-safe box symbol of the reward class (null if no class)",
+      "unlocks_class_name": "real class name — HIDE in chat (null if no class)",
+      "unlocks_scenario": "side scenario number unlocked, else null"
+    },
+    "sources": ["gloomhaven.fandom.com/wiki/Personal_Quests"],
+    "caveats": "Cards 513 and 526 unlock a sealed 'Envelope X' reward, not a class. Requirements paraphrased; exact card text may differ slightly."
+  },
+  "personal_quests": [
+    {"number": 510, "name": "Seeker of Xorn", "requirement": "Complete 3 Crypt scenarios, then conclude the Noxious Cellar.", "unlocks_class": "Cthulhu", "unlocks_class_name": "Plagueherald", "unlocks_scenario": 52, "spoiler": false, "spoiler_class": true},
+    {"number": 511, "name": "Merchant Class", "requirement": "Own 13 items (2 of each slot, 3 hands, 4 small items).", "unlocks_class": "Three Spears", "unlocks_class_name": "Quartermaster", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 512, "name": "Greed is Good", "requirement": "Have 200 gold in your possession.", "unlocks_class": "Three Spears", "unlocks_class_name": "Quartermaster", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 513, "name": "Finding the Cure", "requirement": "Kill 8 Forest Imps, then conclude the Forgotten Grove.", "unlocks_class": null, "unlocks_class_name": null, "unlocks_scenario": 59, "spoiler": false, "spoiler_class": true},
+    {"number": 514, "name": "A Study of Anatomy", "requirement": "Have party members become exhausted a total of 15 times.", "unlocks_class": "Saw", "unlocks_class_name": "Sawbones", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 515, "name": "Law Bringer", "requirement": "Kill 20 Bandits or Cultists.", "unlocks_class": "Sun", "unlocks_class_name": "Sunkeeper", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 516, "name": "Pounds of Flesh", "requirement": "Kill 15 Vermlings.", "unlocks_class": "Lightning Bolt", "unlocks_class_name": "Berserker", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 517, "name": "Trophy Hunt", "requirement": "Kill 20 different types of monsters.", "unlocks_class": "Two Minis", "unlocks_class_name": "Beast Tyrant", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 518, "name": "Eternal Wanderer", "requirement": "Complete 15 different scenarios.", "unlocks_class": "Circles", "unlocks_class_name": "Summoner", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 519, "name": "Battle Legend", "requirement": "Earn 15 battle-goal perk checkmarks.", "unlocks_class": "Music Note", "unlocks_class_name": "Soothsinger", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 520, "name": "Implement of Light", "requirement": "Kill 7 Undead, then find the Skullbane Axe in the Necromancer's Sanctum.", "unlocks_class": "Sun", "unlocks_class_name": "Sunkeeper", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 521, "name": "Take Back the Trees", "requirement": "Complete 3 Dagger Forest scenarios, then conclude Foggy Thicket.", "unlocks_class": "Angry Face", "unlocks_class_name": "Doomstalker", "unlocks_scenario": 55, "spoiler": false, "spoiler_class": true},
+    {"number": 522, "name": "The Thin Places", "requirement": "Complete 6 side scenarios.", "unlocks_class": "Eclipse/Moon", "unlocks_class_name": "Nightshroud", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 523, "name": "Aberrant Slayer", "requirement": "Kill one Demon of each element.", "unlocks_class": "Triangles", "unlocks_class_name": "Elementalist", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 524, "name": "Fearless Stand", "requirement": "Kill 20 Elite monsters.", "unlocks_class": "Two Minis", "unlocks_class_name": "Beast Tyrant", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 525, "name": "Piety in All Things", "requirement": "Donate 120 gold to the Sanctuary of the Great Oak.", "unlocks_class": "Saw", "unlocks_class_name": "Sawbones", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 526, "name": "Vengeance", "requirement": "Complete 4 Gloomhaven (City) scenarios, then conclude Investigation.", "unlocks_class": null, "unlocks_class_name": null, "unlocks_scenario": 57, "spoiler": false, "spoiler_class": true},
+    {"number": 527, "name": "Zealot of the Blood God", "requirement": "Become exhausted 12 times (this character).", "unlocks_class": "Lightning Bolt", "unlocks_class_name": "Berserker", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 528, "name": "Goliath Toppler", "requirement": "Complete 4 Boss scenarios.", "unlocks_class": "Angry Face", "unlocks_class_name": "Doomstalker", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 529, "name": "The Fall of Man", "requirement": "Complete 2 Lingering Swamp scenarios, then conclude Fading Lighthouse.", "unlocks_class": "Eclipse/Moon", "unlocks_class_name": "Nightshroud", "unlocks_scenario": 61, "spoiler": false, "spoiler_class": true},
+    {"number": 530, "name": "Augmented Abilities", "requirement": "Purchase 4 enhancements.", "unlocks_class": "Circles", "unlocks_class_name": "Summoner", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 531, "name": "Elemental Samples", "requirement": "Complete one scenario in each of the main game regions.", "unlocks_class": "Triangles", "unlocks_class_name": "Elementalist", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 532, "name": "A Helping Hand", "requirement": "Be present when 2 other characters achieve their personal quests.", "unlocks_class": "Music Note", "unlocks_class_name": "Soothsinger", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true},
+    {"number": 533, "name": "The Perfect Poison", "requirement": "Kill 3 Oozes, 3 Lurkers, and 3 Spitting Drakes.", "unlocks_class": "Cthulhu", "unlocks_class_name": "Plagueherald", "unlocks_scenario": null, "spoiler": false, "spoiler_class": true}
+  ]
+}

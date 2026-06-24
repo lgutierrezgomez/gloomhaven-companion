@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "game": "Gloomhaven",
+    "edition": "1st",
+    "scope": "17 base-game classes (6 starting + 11 unlockable). Excludes Jaws of the Lion and Forgotten Circles classes.",
+    "spoiler_policy": "starter classes spoiler:false; the 11 unlockable classes spoiler:true. Refer to locked classes by box_symbol only in chat until unlocked.",
+    "fields": {
+      "id": "slug",
+      "box_symbol": "spoiler-safe nickname of the icon on the class box",
+      "name": "real class name (HIDE in chat while spoiler:true)",
+      "race": "character race",
+      "starter": "true for the 6 starting classes",
+      "unlock": "how it becomes available",
+      "hand_size": "cards in hand",
+      "hp_level1": "hit points at level 1",
+      "complexity": "community-consensus difficulty",
+      "playstyle": "one-line summary"
+    },
+    "sources": ["gloomhaven.fandom.com/wiki/Classes", "gloomhaven.fandom.com/wiki/Sealed_Content"]
+  },
+  "classes": [
+    {"id": "brute", "box_symbol": "Brute (starter)", "name": "Brute", "race": "Inox", "starter": true, "unlock": "available from start", "hand_size": 10, "hp_level1": 10, "complexity": "low", "playstyle": "Durable front-line melee tank that soaks hits while dealing reliable damage.", "spoiler": false},
+    {"id": "cragheart", "box_symbol": "Cragheart (starter)", "name": "Cragheart", "race": "Savvas", "starter": true, "unlock": "available from start", "hand_size": 11, "hp_level1": 10, "complexity": "medium", "playstyle": "Flexible bruiser who manipulates the battlefield with obstacles and ranged earth attacks.", "spoiler": false},
+    {"id": "tinkerer", "box_symbol": "Tinkerer (starter)", "name": "Tinkerer", "race": "Quatryl", "starter": true, "unlock": "available from start", "hand_size": 12, "hp_level1": 8, "complexity": "medium", "playstyle": "Support specialist providing healing, utility gadgets and ranged crowd control.", "spoiler": false},
+    {"id": "scoundrel", "box_symbol": "Scoundrel (starter)", "name": "Scoundrel", "race": "Human", "starter": true, "unlock": "available from start", "hand_size": 9, "hp_level1": 8, "complexity": "medium", "playstyle": "Single-target rogue that maximizes damage by flanking enemies alongside allies.", "spoiler": false},
+    {"id": "spellweaver", "box_symbol": "Spellweaver (starter)", "name": "Spellweaver", "race": "Orchid", "starter": true, "unlock": "available from start", "hand_size": 8, "hp_level1": 6, "complexity": "medium", "playstyle": "Glass-cannon mage casting powerful fire/ice AoE spells with a tiny recovering hand.", "spoiler": false},
+    {"id": "mindthief", "box_symbol": "Mindthief (starter)", "name": "Mindthief", "race": "Vermling", "starter": true, "unlock": "available from start", "hand_size": 10, "hp_level1": 6, "complexity": "high", "playstyle": "Fragile melee striker using augments, ice control and mind-manipulation to disable foes.", "spoiler": false},
+    {"id": "sunkeeper", "box_symbol": "Sun", "name": "Sunkeeper", "race": "Valrath", "starter": false, "unlock": "complete a personal quest (e.g. Law Bringer / Implement of Light)", "hand_size": 11, "hp_level1": 10, "complexity": "medium", "playstyle": "Holy paladin tank with shields, healing and light-element burst damage.", "spoiler": true},
+    {"id": "quartermaster", "box_symbol": "Three Spears", "name": "Quartermaster", "race": "Valrath", "starter": false, "unlock": "complete a personal quest (e.g. Merchant Class / Greed is Good)", "hand_size": 9, "hp_level1": 10, "complexity": "medium", "playstyle": "Item-focused tank-support hybrid that recycles gear for flexible melee and ranged output.", "spoiler": true},
+    {"id": "summoner", "box_symbol": "Circles", "name": "Summoner", "race": "Aesther", "starter": false, "unlock": "complete a personal quest (e.g. Eternal Wanderer / Augmented Abilities)", "hand_size": 9, "hp_level1": 8, "complexity": "high", "playstyle": "Commands a swarm of element-fueled summons to deal damage and control space.", "spoiler": true},
+    {"id": "nightshroud", "box_symbol": "Eclipse/Moon", "name": "Nightshroud", "race": "Aesther", "starter": false, "unlock": "complete a personal quest (e.g. The Thin Places / The Fall of Man)", "hand_size": 9, "hp_level1": 8, "complexity": "high", "playstyle": "Invisible dark-element assassin delivering devastating single-target strikes.", "spoiler": true},
+    {"id": "plagueherald", "box_symbol": "Cthulhu", "name": "Plagueherald", "race": "Harrower", "starter": false, "unlock": "complete a personal quest (e.g. Seeker of Xorn / The Perfect Poison)", "hand_size": 11, "hp_level1": 6, "complexity": "high", "playstyle": "Ranged debuffer layering poison and curses while controlling the air element.", "spoiler": true},
+    {"id": "berserker", "box_symbol": "Lightning Bolt", "name": "Berserker", "race": "Inox", "starter": false, "unlock": "complete a personal quest (e.g. Pounds of Flesh / Zealot of the Blood God)", "hand_size": 10, "hp_level1": 10, "complexity": "medium", "playstyle": "Reckless melee fighter whose damage scales as her own health drops.", "spoiler": true},
+    {"id": "soothsinger", "box_symbol": "Music Note", "name": "Soothsinger", "race": "Quatryl", "starter": false, "unlock": "complete a personal quest (e.g. Battle Legend / A Helping Hand)", "hand_size": 9, "hp_level1": 6, "complexity": "high", "playstyle": "Fragile ranged bard projecting persistent song buffs and enemy-weakening debuffs.", "spoiler": true},
+    {"id": "doomstalker", "box_symbol": "Angry Face", "name": "Doomstalker", "race": "Orchid", "starter": false, "unlock": "complete a personal quest (e.g. Take Back the Trees / Goliath Toppler)", "hand_size": 12, "hp_level1": 8, "complexity": "medium", "playstyle": "Ranged hunter who marks enemies with Dooms for targeted high damage and summons.", "spoiler": true},
+    {"id": "sawbones", "box_symbol": "Saw", "name": "Sawbones", "race": "Human", "starter": false, "unlock": "complete a personal quest (e.g. A Study of Anatomy / Piety in All Things)", "hand_size": 10, "hp_level1": 8, "complexity": "medium", "playstyle": "Battlefield medic granting allies bonus cards, healing and situational damage.", "spoiler": true},
+    {"id": "elementalist", "box_symbol": "Triangles", "name": "Elementalist", "race": "Savvas", "starter": false, "unlock": "complete a personal quest (e.g. Aberrant Slayer / Elemental Samples)", "hand_size": 10, "hp_level1": 6, "complexity": "high", "playstyle": "Versatile mage who generates and consumes all elements to power varied effects.", "spoiler": true},
+    {"id": "beast-tyrant", "box_symbol": "Two Minis", "name": "Beast Tyrant", "race": "Vermling", "starter": false, "unlock": "complete a personal quest (e.g. Trophy Hunt / Fearless Stand)", "hand_size": 10, "hp_level1": 6, "complexity": "high", "playstyle": "Backline commander directing a tanky bear companion while supporting and summoning.", "spoiler": true}
+  ]
+}

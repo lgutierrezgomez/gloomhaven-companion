@@ -1,0 +1,11 @@
+{
+  "name": "gloomhaven-companion",
+  "version": "1.0.0",
+  "description": "Local, install-free Gloomhaven (1st edition) campaign tracker — record progress and explore the unlock tree, classes, items, achievements and deductions.",
+  "private": true,
+  "scripts": {
+    "gen": "node tools/gen-knowledge.mjs",
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
